@@ -1,0 +1,12 @@
+builds/
+logs/
+exceptions/
+errors/last.txt
+.DS_Store
+
+# local player data
+data/times.txt
+tracks/user_*.txt
+
+# D3D Pro C extension (paid, not distributed with this game)
+native/
