@@ -1,9 +1,43 @@
-# Stunt Driver 3D
+<h1 align="center">Stunt Driver 3D</h1>
 
-A stunt racing game for [DragonRuby GTK](https://dragonruby.org/), built on the
-[D3D](https://github.com/webmatze/d3d) engine (vendored in `app/d3d`). Drive 3D tracks with
-bridges, loops, jumps, tunnels and curves against the clock without wrecking the car, and
-build your own tracks from the same parts in the editor. The game's texts are German.
+<p align="center">
+  <b>Loops, jumps, bridges and a stopwatch.</b><br>
+  A stunt racing game with a track editor for <a href="https://dragonruby.org/">DragonRuby GTK</a>,
+  software-rendered in pure Ruby with the <a href="https://github.com/webmatze/d3d">D3D</a> engine.
+</p>
+
+<p align="center">
+  <img src="docs/screenshots/loop.jpg" alt="Upside down at the top of the loop" width="820">
+</p>
+
+Race the clock over 3D tracks without wrecking the car, then build your own tracks from the
+same parts and test-drive them straight from the editor.
+
+| | |
+|---|---|
+| ![Track menu with a demo drive in the background](docs/screenshots/menu.jpg) | ![In the air after a jump ramp](docs/screenshots/jump.jpg) |
+| **Menu**: pick a track while the autopilot shows it off | **Jumps**: take off fast enough to reach the landing ramp |
+| ![Ramp up to an elevated road](docs/screenshots/ramp.jpg) | ![The wreck after falling out of the loop](docs/screenshots/crash.jpg) |
+| **Heights**: ramps, elevated roads and bridges | **Crash**: too slow for the loop and the run is over |
+
+<p align="center">
+  <img src="docs/screenshots/editor.jpg" alt="Track editor" width="820"><br>
+  <b>Track editor</b>: place parts on the grid; the route is checked after every change
+</p>
+
+## Features
+
+- **Stunt tracks** on a 20x20 grid of tiles: curves, wide curves, crossings, ramps, elevated
+  roads, bridges, jump ramps, loops, tunnels and slalom obstacles, plus scenery
+- **Time trial**: countdown, clock, best time per track, minimap; every part of the track
+  has to be driven in order
+- **Crashes**: hit something fast, land too hard or not on the wheels and the car is a wreck
+- **Track editor** with mouse and keyboard, a live route check and instant test drives;
+  up to 8 own tracks saved as plain text
+- **Three built-in tracks**, three cameras (chase, far, bonnet), procedurally generated sounds
+- **Pure Ruby**: about 2 ms of Ruby per frame on an Apple silicon Mac, no C extension needed
+
+The game's texts are German.
 
 ## Run
 
