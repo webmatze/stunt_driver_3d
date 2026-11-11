@@ -83,6 +83,7 @@ def tick(args)
         ed.instance_variable_set(:@sel, Pieces::ORDER.index(:wide_curve))
         ed.instance_variable_set(:@rot, 1)
         ed.instance_variable_set(:@cur, [16, 4])
+        ed.send(:show_cursor)
       end
       smoke_shot(args, 'editor') if s[:since] == 30
       if s[:since] == 50

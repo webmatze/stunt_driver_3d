@@ -78,9 +78,10 @@ files in `tracks/user_N.txt`.
 |---|---|
 | Left mouse button / Space | Place the selected part (drag to paint) |
 | Right mouse button / X | Remove the part |
-| R / mouse wheel | Rotate |
+| R | Rotate |
 | Click on the palette, Q / E | Choose a part |
-| Arrow keys | Move the cursor |
+| Mouse wheel (Shift: sideways), middle mouse button, click on the overview | Scroll the map |
+| Arrow keys | Move the cursor (the map follows) |
 | T | Test drive |
 | S | Save (also saved when leaving) |
 
